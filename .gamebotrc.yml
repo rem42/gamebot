@@ -1,0 +1,31 @@
+# Change these first
+owner: rem42 # Your GitHub username
+repo: gamebot # Your Github repository name
+
+games:
+  - name: Account Bananaloto 1
+    type: bananaloto
+    email_secret: BANANALOTO_1_EMAIL
+    password_secret: BANANALOTO_1_PASSWORD
+  - name: Account Kingoloto 1
+    type: kingoloto
+    email_secret: KINGOLOTO_1_EMAIL
+    password_secret: KINGOLOTO_1_PASSWORD
+
+status-website:
+  # Add your custom domain below, or remove the next line if you don't have a domain
+  cname: rem42.github.io
+  # Uncomment the following line if you don't have a custom domain and add your repo name
+  baseUrl: /gamebot
+  logoUrl: https://raw.githubusercontent.com/upptime/upptime.js.org/master/static/img/icon.svg
+  name: GameBot
+  introTitle: "**GameBot** is the open-source game bot with status page, powered entirely by GitHub."
+  introMessage: This is a sample status page which uses **real-time** data from our [Github repository](https://github.com/koj-co/upptime). No server required — just GitHub Actions, Issues, and Pages. [**Get your own for free**](https://github.com/koj-co/upptime)
+  navbar:
+    - title: Games
+      href: /
+    - title: GitHub
+      href: https://github.com/$OWNER/$REPO
+
+# Gamebot also supports notifications, assigning issues, and more
+# See https://upptime.js.org/docs/configuration
