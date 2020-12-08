@@ -23,7 +23,7 @@ jobs:
           ref: ${{ github.head_ref }}
           token: ${{ secrets.GH_PAT }}
       - name: Play daily games
-        uses: rem42/gamebot-actions@master
+        uses: rem42/gamebot-actions@main
         with:
           command: "play"
         env:
