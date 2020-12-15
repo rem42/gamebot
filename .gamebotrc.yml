@@ -11,6 +11,10 @@ games:
     type: kingoloto
     email_secret: KINGOLOTO_1_EMAIL
     password_secret: KINGOLOTO_1_PASSWORD
+  - name: Account Kingoloto app 1
+    type: kingoloto-app
+    email_secret: KINGOLOTO_APP_1_EMAIL
+    password_secret: KINGOLOTO_APP_1_PASSWORD
   - name: Account Primolotto 1
     type: primolotto
     email_secret: PRIMOLOTTO_1_EMAIL
